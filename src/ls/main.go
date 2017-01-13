@@ -186,7 +186,10 @@ func mandaparafunc() { //para mandar para as funções
 }
 func mostrartodos() { //ls -a
 	//fmt.Println("all funfando")
-	arquivos, _ := ioutil.ReadDir(dir)
+	arquivos, nexiste := ioutil.ReadDir(dir)
+	if nexiste != nil {
+		fmt.Println("dir não encontrado")
+	}
 	for _, arquivo := range arquivos {
 
 		fmt.Println(arquivo.Name())
@@ -194,7 +197,10 @@ func mostrartodos() { //ls -a
 	}
 }
 func mostrarapenas() { //ls sem parametro
-	arquivos, _ := ioutil.ReadDir(dir)
+	arquivos, nexiste := ioutil.ReadDir(dir)
+	if nexiste != nil {
+		fmt.Println("dir não encontrado")
+	}
 	for _, arquivo := range arquivos {
 		if strings.Index(arquivo.Name(), ".") == 0 {
 
