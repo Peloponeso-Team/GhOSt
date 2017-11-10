@@ -2,9 +2,9 @@
 ## GoAtSchool/conv  
 
 ###Aceleração  
-Função | Parametros | Descrição | Retorno
-:-- | :-- | :-- | :--
-Mlh_to_kmh | float64 | Converte ml/h em km/h | float64
+Função | Parametros | Descrição | Retorno  
+:-- | :-- | :-- | :--  
+Mlh_to_kmh | float64 | Converte ml/h em km/h | float64  
 Kmh_to_mlh | float64 | Converte km/h em ml/h | float64
 Kmh_to_ms | float64 | Converte km/h em m/s | float64
 Ms_to_kmh | float64 | Converte m/s em km/h | float64
