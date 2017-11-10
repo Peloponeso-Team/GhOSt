@@ -1,29 +1,35 @@
 # CONV 0.0.1
 ## GoAtSchool/conv  
 
-###Aceleração  
-Função | Parametros | Descrição | Retorno  
-:-- | :-- | :-- | :--  
-Mlh_to_kmh | float64 | Converte ml/h em km/h | float64  
-Kmh_to_mlh | float64 | Converte km/h em ml/h | float64
-Kmh_to_ms | float64 | Converte km/h em m/s | float64
-Ms_to_kmh | float64 | Converte m/s em km/h | float64
+
+###Aceleração			
 
 
-###Distancia
-Função | Parametros | Descrição | Retorno
-:-- | :-- | :-- | :--
-Ml_to_km | float64 | Converte milhas em kilometros | float64
-Km_to_ml | float64 | Converte kilometros em milhas | float64
-Km_to_hc | float64 | Converte kilometros quadrados em hectares | float64
-Hc_to_km | float64 | Converte hectares em kilometros quadrados | float64
-Km_to_ml | float64 | Converte kilometros em milhas | float64
-Mt_to_km | float64 | Converte metros em kilometros | float64
-Km_to_mt | float64 | Converte kilometros em metros | float64
-Mt_to_ml | float64 | Converte metros em milhas | float64
+Função | Parametros | Descrição | Retorno				
+:-- | :-- | :-- | :--			
+Mlh_to_kmh | float64 | Converte ml/h em km/h | float64					  
+Kmh_to_mlh | float64 | Converte km/h em ml/h | float64			  
+Kmh_to_ms | float64 | Converte km/h em m/s | float64			 
+Ms_to_kmh | float64 | Converte m/s em km/h | float64			  
 
 
-###Peso
+
+###Distancia		
+
+Função | Parametros | Descrição | Retorno		
+:-- | :-- | :-- | :--		
+Ml_to_km | float64 | Converte milhas em kilometros | float64		
+Km_to_ml | float64 | Converte kilometros em milhas | float64		
+Km_to_hc | float64 | Converte kilometros quadrados em hectares | float64		
+Hc_to_km | float64 | Converte hectares em kilometros quadrados | float64		
+Km_to_ml | float64 | Converte kilometros em milhas | float64		
+Mt_to_km | float64 | Converte metros em kilometros | float64		
+Km_to_mt | float64 | Converte kilometros em metros | float64			
+Mt_to_ml | float64 | Converte metros em milhas | float64	
+
+
+###Peso		
+
 Função | Parametros | Descrição | Retorno
 :-- | :-- | :-- | :--
 Kg_to_lb | float64 | converte kilogramas em libras | float64
@@ -34,7 +40,8 @@ Lb_to_on | float64 | converte libras em onças | float64
 On_to_lb | float64 | converte onças em libras | float64
 
 
-###Temperatura
+###Temperatura		
+
 Função | Parametros | Descrição | Retorno
 :-- | :-- | :-- | :--
 Kv_to_cl | float64 | converte Graus Kevin para Celsius | float64
@@ -43,7 +50,8 @@ Fh_to_cl | float64 | converte Graus fahrenheit para Celsius | float64
 Cl_to_fh | float64 | converte Graus Celsius para fahrenheit | float64
 
 
-###Tempo
+###Tempo		
+
 Função | Parametros | Descrição | Retorno
 :-- | :-- | :-- | :--
 Hr_to_s | float64 | converte horas em segundos | float64
