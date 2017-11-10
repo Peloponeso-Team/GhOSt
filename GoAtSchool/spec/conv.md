@@ -2,7 +2,7 @@
 ## GoAtSchool/conv  
 
 
-###Aceleração			
+### Aceleração			
 
 
 Função | Parametros | Descrição | Retorno				
@@ -14,7 +14,7 @@ Ms_to_kmh | float64 | Converte m/s em km/h | float64
 
 
 
-###Distancia		
+### Distancia		
 
 Função | Parametros | Descrição | Retorno		
 :-- | :-- | :-- | :--		
@@ -28,7 +28,7 @@ Km_to_mt | float64 | Converte kilometros em metros | float64
 Mt_to_ml | float64 | Converte metros em milhas | float64	
 
 
-###Peso		
+### Peso		
 
 Função | Parametros | Descrição | Retorno
 :-- | :-- | :-- | :--
@@ -40,7 +40,7 @@ Lb_to_on | float64 | converte libras em onças | float64
 On_to_lb | float64 | converte onças em libras | float64
 
 
-###Temperatura		
+### Temperatura		
 
 Função | Parametros | Descrição | Retorno
 :-- | :-- | :-- | :--
@@ -50,7 +50,7 @@ Fh_to_cl | float64 | converte Graus fahrenheit para Celsius | float64
 Cl_to_fh | float64 | converte Graus Celsius para fahrenheit | float64
 
 
-###Tempo		
+### Tempo		
 
 Função | Parametros | Descrição | Retorno
 :-- | :-- | :-- | :--
